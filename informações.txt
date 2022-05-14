@@ -1,0 +1,63 @@
+// SQLite -> arquivo fisico -> Banco de Dados
+
+// Prisma - ORM - muda a forma de comunicação com o banco de dados
+//      Não usa querys, usa o próprio JS
+//      pode suportar vários banco de dados diferentes
+
+
+// Tabelas, colunas, índices (única/busca/relacionamentos)
+
+// UUID  - Universal Unique ID
+// E6111099-9874-4298-AFE0-8B7A9BC5A907
+
+// SnowFlakeID (criado pelo twitter)
+
+// Conceito de Banco de dados:
+    migrations:
+        versionamento do banco de dados 
+
+
+// GET - buscar informações
+// POST - criar informações
+// PUT - atualizar informações
+// DELETE - deletar informações
+
+
+Envio de e-mail (serviços)
+    - mailgun
+    - mailchimp
+    - sparkpost
+    - ...
+
+    para dev
+    - mailtrap (teste e envio)
+
+
+#SOLID
+
+- Single Responsability Principle (SRP)
+    - Cada classe/função tem uma responsabilidade única
+        - está errado quando a função fazer "algo" E "outra"
+    
+- Open Closed Principle (OCP)
+    - Classe da aplicação devem ser abertas para extensão, mas fechada para modificação
+        - a classe que extende outra não deve modificar a classe pai
+
+- Liskov Substitution Principle (LSP)
+    - Devemos poder substituir uma classe pai por uma herança dela e tudo continuar funcionando
+        Ave -> Gavião	( a classe gavião deve funcionar no lugar da classe Ave, mesmo que tenha masi funcionalidades em relação a esta)
+- Interface Segregation Principle (ISP)
+    - deve se tentar separar as interfaces 
+        - ...
+
+- Dependency Inversion Principle (DIP)
+    - inverter as dependencias da classe
+        - passar dependencias de forma inversa
+        - o context externo fala pra ela o que ela precisa
+        - a própria classe não sabe como funciona funções externas, apenas às usa.
+
+- Teste unitários
+- testam coisas específicas desacopladas do restante da aplicação
+
+suite de teste:
+    varios testes para um arquivo (?)
