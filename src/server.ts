@@ -5,10 +5,10 @@ import { routes } from './routes';
 const app = express();
 
 app.use(cors());
-app.use(express.json({limit: '100mb'}));
+app.use(express.json({ limit: '100mb' }));
 app.use(routes)
 
-app.listen(3333, () => {
+app.listen(process.env.PORT || 3333, () => {
     console.log('HTTP server running!');
 });
 
