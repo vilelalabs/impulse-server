@@ -1,5 +1,7 @@
 # impulse-server
 
 Servidor de Banco de Dados:  RAILWAY.APP 
+
 Servidor de página para test: VERCEL
-Servidor de e-mail: NODEMAILER
+
+Servidor de e-mail: NODEMAILER com simulador no https://mailtrap.io/
